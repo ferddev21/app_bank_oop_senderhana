@@ -1,0 +1,16 @@
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/bin/Debug/net5.0/bank_oop_sederhana
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/bin/Debug/net5.0/bank_oop_sederhana.deps.json
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/bin/Debug/net5.0/bank_oop_sederhana.runtimeconfig.json
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/bin/Debug/net5.0/bank_oop_sederhana.runtimeconfig.dev.json
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/bin/Debug/net5.0/bank_oop_sederhana.dll
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/bin/Debug/net5.0/ref/bank_oop_sederhana.dll
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/bin/Debug/net5.0/bank_oop_sederhana.pdb
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.csproj.AssemblyReference.cache
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.GeneratedMSBuildEditorConfig.editorconfig
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.AssemblyInfoInputs.cache
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.AssemblyInfo.cs
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.csproj.CoreCompileInputs.cache
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.dll
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/ref/bank_oop_sederhana.dll
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.pdb
+/home/ferddev21/project/metrodata/net/bank_oop_sederhana/obj/Debug/net5.0/bank_oop_sederhana.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "bank_oop_sederhana/1.0.0": {
+        "runtime": {
+          "bank_oop_sederhana.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "bank_oop_sederhana/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
