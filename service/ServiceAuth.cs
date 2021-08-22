@@ -9,14 +9,14 @@ namespace bank_oop_sederhana.service
         {
             if (inputUsername != "" && inputPassword != "")
             {
-                var user = AccountImplement.GetAll();
+                var account = AccountImplement.GetAll();
 
-                for (int i = 0; i < user.Count; i++)
+                for (int i = 0; i < account.Count; i++)
                 {
-                    if (user[i].Username == inputUsername && user[i].Password == inputPassword)
+                    if (account[i].Username == inputUsername && account[i].Password == inputPassword)
                     {
                         //user login set ke auth data
-                        if (AuthImplement.Save(user[i].Id, user[i].Username))
+                        if (AuthImplement.Save(account[i].Id, account[i].Username))
                         {
                             return false;
                         }
@@ -26,6 +26,12 @@ namespace bank_oop_sederhana.service
                 }
 
             }
+            return true;
+        }
+
+        public static bool ClearAuth()
+        {
+            AuthImplement.GetAll().Clear();
             return true;
         }
     }

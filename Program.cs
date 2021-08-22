@@ -12,8 +12,16 @@ namespace bank_oop_sederhana
 
         private static void RunProgram()
         {
-            ViewAuth.Login();
-            ViewMenu.MainMenu();
+            bool isCheck = true;
+            while (isCheck)
+            {
+                ViewAuth.Login();
+                ViewMenu.MainMenu();
+                isCheck = true;
+            }
+
+
+
         }
 
     }

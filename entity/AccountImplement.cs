@@ -34,5 +34,39 @@ namespace bank_oop_sederhana.entity
             );
             return true;
         }
+
+        public static bool UpdateSaldo(int userId, int nominal, bool isSaving)
+        {
+            for (int i = 0; i < account.Count; i++)
+            {
+                if (account[i].Id == userId)
+                {
+                    if (isSaving)
+                    {
+                        account[i].Saldo += nominal;
+
+                    }
+                    else
+                    {
+                        account[i].Saldo -= nominal;
+                    }
+
+                }
+            }
+            return true;
+        }
+
+        public static bool UpdatePassword(int userId, string password)
+        {
+            for (int i = 0; i < account.Count; i++)
+            {
+                if (account[i].Id == userId)
+                {
+
+                    account[i].Password = password;
+                }
+            }
+            return true;
+        }
     }
 }

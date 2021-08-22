@@ -4,20 +4,27 @@ namespace bank_oop_sederhana.view
 {
     public class ViewAuth
     {
-        public static bool check = true;
+        public static bool isCheck = true;
 
         public static void Login()
         {
-            while (check)
+            isCheck = true;
+            while (isCheck)
             {
-                System.Console.Clear();
                 System.Console.Write("Username : ");
                 string inputUsername = System.Console.ReadLine();
                 System.Console.Write("Password : ");
                 string inputPassword = System.Console.ReadLine();
-
-                check = ServiceAuth.CheckLogin(inputUsername, inputPassword);
+                System.Console.Clear();
+                isCheck = ServiceAuth.CheckLogin(inputUsername, inputPassword);
             }
+        }
+
+        public static void Logout()
+        {
+            System.Console.Clear();
+            System.Console.WriteLine("Berhasil Logout");
+            isCheck = !ServiceAuth.ClearAuth();
         }
 
     }

@@ -12,8 +12,8 @@ namespace bank_oop_sederhana.entity
 
         public int Id { get; protected set; }
         public string Username { get; protected set; }
-        public string Password { get; protected set; }
-        public int Saldo { get; protected set; }
+        public string Password { get; set; }
+        public int Saldo { get; set; }
 
     }
 
