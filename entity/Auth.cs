@@ -2,6 +2,10 @@ namespace bank_oop_sederhana.entity
 {
     public class Auth
     {
+        public Auth()
+        {
+        }
+
         public Auth(int authIdAccount, string authUsernameAccount)
         {
             AuthIdAccount = authIdAccount;

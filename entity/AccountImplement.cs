@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace bank_oop_sederhana.entity
 {
-    public class AccountImplement
+    public class AccountImplement : Account
     {
         private static List<Account> account = new List<Account>(){
                 new Account(1,"ferdian","1234",10000),

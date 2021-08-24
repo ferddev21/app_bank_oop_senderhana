@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace bank_oop_sederhana.entity
 {
-    public class TransactionImplement
+    public class TransactionImplement : Transaction
     {
         public static List<Transaction> transaction = new List<Transaction>();
         public static bool Insert(int authId, int debit, int kredit, int saldo)

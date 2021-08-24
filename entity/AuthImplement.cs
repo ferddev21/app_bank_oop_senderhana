@@ -2,9 +2,10 @@ using System.Collections.Generic;
 
 namespace bank_oop_sederhana.entity
 {
-    public class AuthImplement
+    public class AuthImplement : Auth
     {
         public static List<Auth> auth = new List<Auth>();
+
         public static bool Save(int authIdAccount, string authUsernameAccount)
         {
             auth.Add(

@@ -15,10 +15,10 @@ namespace bank_oop_sederhana.entity
             Date = date;
         }
 
-        public int AccountId { get; set; }
-        public int Debit { get; set; }
-        public int Kredit { get; set; }
-        public int Saldo { get; set; }
-        public string Date { get; set; }
+        public int AccountId { get; protected set; }
+        public int Debit { get; protected set; }
+        public int Kredit { get; protected set; }
+        public int Saldo { get; protected set; }
+        public string Date { get; protected set; }
     }
 }
